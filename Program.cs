@@ -148,7 +148,41 @@ else if (resp == "2")
 
             sr.Close(); 
 
- 
+ /*else if (resp == "2") 
+
+{ 
+ StreamReader sr = new("data.txt");
+
+            if (File.Exists(sr)) 
+
+        { 
+
+        
+            StreamReader sr = new(sr);
+            while (!sr.EndOfStream)
+            {
+                string? line = sr.ReadLine();
+                string[] arr = String.IsNullOrEmpty(line) ? [] : line.Split('|');
+
+                 Console.WriteLine($"Week of {today:MMMM,dd,yyyy}");
+                 Console.WriteLine("Su  Mo  Tu  We  Th  Fr  Sa");
+                 Console.WriteLine("--  --  --  --  --  --  --");
+                
+
+            }
+            sr.Close();
+
+        }
+        else
+        {
+            Console.WriteLine("File does not exist");
+        }
+                
+
+
+} 
+
+ */
 
         } 
 
