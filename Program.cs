@@ -1,8 +1,4 @@
-‎Program.cs
-+4
--1
-Original file line number	Diff line number	Diff line change
-@@ -1,68 +1,71 @@
+
 ﻿// ask for input
 Console.WriteLine("Enter 1 to create data file.");
 Console.WriteLine("Enter 2 to parse data.");
